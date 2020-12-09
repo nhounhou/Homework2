@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%
+}
+
+.navbar {
+  border-bottom: 1px solid #efefef;
+}
+
+.logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #4aaaa5;
+  padding: 10px;
+  color: #fff !important;
+}
+
+main {
+  margin: 80px 0;
+}
+
+/* ------------------------- */
+/* other styles will be here */
+/* ------------------------- */
+
+#bg-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('../grey-geometric.jpeg');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 2;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #4aaaa5;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.spacing {
+  margin: 20px;
+}
+.header {
+  margin-top: 20px;
+}
+
+.image-wrapper img {
+  width: 200px;
+  height: 180px;
+  float: left; 
+  margin: 3px 12px 3px 0px; 
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+img {
+  margin: 10px;
+}
+
+.col-md-6 img {
+  border: 1px solid black;
+}
+
+/* .container {
+  float: left;
+  overflow: auto;
+  width: 80%
+} */
+
+.textwrap {
+  overflow: visible;
+  text-align: justify;
+} 
+
+section {
+  border: 2px solid black;
+  margin-top: 150px;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  height: 62px;
+  border-top: 6px solid #4aaaa5;
+  margin-top: 3px;
+  background-color: #666;
+  padding-top: 14px;
+  color: #fff;
+}
+
+/* @media screen and (max-width: 400px) {
+  .container {
+    width: 25%;
+    float: left;
+    overflow: auto;
+  }
+  
+  section {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container  {
+    width: 50%;
+    float: left;
+    overflow: auto;
+  }
+
+  section {
+    border: 2px solid black;
+    margin-top: 150px;
+    width: 750px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    float: left;
+    overflow: auto;
+    width: 95%
+  }
+}
+ */
