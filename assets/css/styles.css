@@ -4,7 +4,7 @@ body {
 
 html {
   position: relative;
-  min-height: 100%
+  /* min-height: 100% */
 }
 
 .navbar {
@@ -66,7 +66,74 @@ img {
   margin: 10px;
 }
 
-.col-md-6 img {
+.myMain {  
+  margin-top: 10px;
+  height: 89vh;
+  overflow: scroll;
+}
+
+.myHW {
+  border: 2px solid aquamarine;
+  border-radius: 5px;
+  position: relative;
+}
+
+.HW {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  float: left;
+  display: block;
+}
+
+.icon {
+  width: 50px;
+  height: 30px;
+  object-fit: contain;
+  float: left;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+}
+
+.icon1 {
+  right: 60px;
+}
+
+.icon2 {
+  right: 0;
+}
+
+.icon3 {
+  left:0;
+  height: 20px;
+  width: 75px;
+}
+
+.icon4 {
+  left: 80px;
+  height: 20px;
+  width: 75px;
+}
+
+.icon5 {
+  left: 160px;
+  height: 20px;
+  width: 75px;
+}
+
+.icon6 {
+  left: 240px;
+  height: 20px;
+  width: 75px;
+}
+
+.desc {
+  height: 25%;
+  padding-top: 60px;
+}
+
+.col-md-6 {
   border: 1px solid black;
 }
 
@@ -96,38 +163,3 @@ section {
   padding-top: 14px;
   color: #fff;
 }
-
-/* @media screen and (max-width: 400px) {
-  .container {
-    width: 25%;
-    float: left;
-    overflow: auto;
-  }
-  
-  section {
-    width: 390px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container  {
-    width: 50%;
-    float: left;
-    overflow: auto;
-  }
-
-  section {
-    border: 2px solid black;
-    margin-top: 150px;
-    width: 750px;
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .container {
-    float: left;
-    overflow: auto;
-    width: 95%
-  }
-}
- */
