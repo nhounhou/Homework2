@@ -35,6 +35,10 @@ Follow these guidelines for committing:
 
 We would like you to have well over 200 commits by graduation, so commit early and often!
 
+## Links
+- Github Repo: [https://github.com/nhounhou/Portfolio]
+- Live Deployement: [https://nhounhou.github.io/Portfolio]
+
 ## Submission on BCS
 
 You are required to submit the following:
