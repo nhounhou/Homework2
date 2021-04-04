@@ -5,11 +5,11 @@ Responsive design ensures that web applications render well on a variety of devi
 
 ## index.html
 
-presentation of myself
+presentation of myself, with tansition effet between pages
 
 ## portfolio.html
 
-regular image 350x350. I will update this page as I'm going thru the BootCamp program. Like the Password Generator from next week homework
+![repo folder](assets/images/ResponsivePortfolio.jpg)
 
 ### contact.html
 
