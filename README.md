@@ -6,6 +6,7 @@ Responsive design ensures that web applications render well on a variety of devi
 ## index.html
 
 presentation of myself, with tansition effet between pages
+![page1](assets/images/ResponsivePortfoliopage1.jpg)
 
 ## portfolio.html
 
@@ -14,6 +15,7 @@ presentation of myself, with tansition effet between pages
 ### contact.html
 
 form to contact me by sending a message
+![page3](assets/images/ResponsivePortfoliopage3.jpg)
 
 ## Commit Early and Often
 
