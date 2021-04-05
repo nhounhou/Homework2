@@ -169,10 +169,11 @@ window.kontext = function( container ) {
     // Demo page JS
 
     var bulletsContainer = document.body.querySelector( '.bullets' );
-
+    var titlePage =['About Me', 'Portfolio', 'Contact Me'];
     // Create one bullet per layer
     for( var i = 0, len = k.getTotal(); i < len; i++ ) {
     var bullet = document.createElement( 'li' );
+    bullet.setAttribute('title',titlePage[i]);
     bullet.className = i === 0 ? 'active' : '';
     bullet.setAttribute( 'index', i );
     bullet.onclick = function( event ) { k.show( event.target.getAttribute( 'index' ) ) };
